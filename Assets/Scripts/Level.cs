@@ -13,7 +13,7 @@ public class Level : MonoBehaviour {
     }
 
     public void LoadGame() {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(10);
         FindObjectOfType<GameSession>().ResetGame();
     }
 
@@ -25,6 +25,25 @@ public class Level : MonoBehaviour {
         Application.Quit();
     }
 
+    public void LoadCharB() {
+        SceneManager.LoadScene(1);
+    }
+
+    public void LoadCharA() {
+        SceneManager.LoadScene(11);
+    }
+
+    public void LoadChooseCharacter() {
+        SceneManager.LoadScene(10);
+    }
+
+    public void LoadStuffB() {
+        SceneManager.LoadScene("Stuff_B");
+    }
+
+    public void LoadNotTheEnd() {
+        SceneManager.LoadScene(25);
+    }
     IEnumerator WaitAndLoad() {
         yield return new WaitForSeconds(delayInSeconds);
         SceneManager.LoadScene("Game Over");

@@ -38,15 +38,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2915942484487687103}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 451b19edef0b54744900c05e316d4362, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waveConfigs:
-  - {fileID: 11400000, guid: 9225c2ac950acd742a8092f0d65def17, type: 2}
-  - {fileID: 11400000, guid: ae1168e7af934aa40aac87dd83093417, type: 2}
-  - {fileID: 11400000, guid: 9ed0d1998741cf94f8b4dc16ba45cd96, type: 2}
-  - {fileID: 11400000, guid: ebc3670afa69bb340a69e47403ed7645, type: 2}
+  waveConfigs: []
   startingWave: 0
-  looping: 1
+  looping: 0
+  enemyNum: 1

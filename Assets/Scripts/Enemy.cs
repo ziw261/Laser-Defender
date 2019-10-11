@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -22,15 +23,24 @@ public class Enemy : MonoBehaviour
     [SerializeField] AudioClip shootSFX;
     [SerializeField] [Range(0, 1)] float shootSoundVolume = 0.2f;
 
-
+    [SerializeField] EnemySpawner enemySpawner;
+    [SerializeField] SceneLoader sceneLoader;
     // Start is called before the first frame update
     void Start() {
         shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
+        if(SceneManager.GetActiveScene().buildIndex == 20)
+        {
+            GameObject laser = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
+            laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -projectileSpeed);
+            AudioSource.PlayClipAtPoint(shootSFX, Camera.main.transform.position, shootSoundVolume);
+        }
     }
 
     // Update is called once per frame
     void Update() {
-        CountDownAndShoot();
+        if (SceneManager.GetActiveScene().buildIndex != 20) {
+            CountDownAndShoot();
+        }
     }
 
     private void CountDownAndShoot() {
@@ -43,9 +53,12 @@ public class Enemy : MonoBehaviour
     }
 
     private void Fire() {
-        GameObject laser = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
-        laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -projectileSpeed);
-        AudioSource.PlayClipAtPoint(shootSFX, Camera.main.transform.position, shootSoundVolume);
+        if (SceneManager.GetActiveScene().buildIndex != 20)
+        {
+            GameObject laser = Instantiate(projectile, transform.position, Quaternion.identity) as GameObject;
+            laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -projectileSpeed);
+            AudioSource.PlayClipAtPoint(shootSFX, Camera.main.transform.position, shootSoundVolume);
+        }
 
     }
 
@@ -57,18 +70,28 @@ public class Enemy : MonoBehaviour
     }
 
     private void ProcessHit(DamageDealer damageDealer) {
-        health -= damageDealer.GetDamage();
-        damageDealer.Hit();
         if (health <= 0) {
+            return;
+        }
+        health -= damageDealer.GetDamage();
+        if (health > 0) {
+            damageDealer.Hit();
+        } else if (health <= 0) {
             Die();
         }
     }
 
     private void Die() {
         FindObjectOfType<GameSession>().AddToScore(scoreValue);
+        enemySpawner.killOneEnemy();
         Destroy(gameObject);
-        GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
-        Destroy(explosion, durationOfExplosion);
-        AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSoundVolume);
+        if (SceneManager.GetActiveScene().buildIndex != 20)
+        {
+            GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
+            Destroy(explosion, durationOfExplosion);
+            AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSoundVolume);
+        }
+       
+
     }
 }

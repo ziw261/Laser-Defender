@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1758301277503203723
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1758301277503203721}
+  - component: {fileID: 1758301277503203722}
+  m_Layer: 0
+  m_Name: LoadNextScenario
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1758301277503203721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758301277503203723}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 744.9724, y: 1035.1553, z: -17.481531}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1758301277503203722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758301277503203723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a224cd5c04d14d928295a39813539b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 0}
+  sceneLoader: {fileID: 7706526955034177808, guid: 393b44265dc8c45d7969e7e78c3c0783,
+    type: 3}
+  storyText:
+  - "\u5F88\u4E45\u5F88\u4E45\u4EE5\u524D\uFF0C\u661F\u6D77\u88AB\u4E24\u5927\u79CD\u65CF\u7EDF\u6CBB\u7740\u3002\u5176\u4E00\u662F\u4EBA\u65CF\uFF0C\u4ED6\u4EEC\u5EFA\u7ACB\u4E86\u540D\u4E3AA\u7684\u5E1D\u56FD\uFF0C\u5360\u636E\u7740\u5B87\u5B992/3\u7684\u533A\u57DF\u3002\u53E6\u59161/3\u5219\u88AB\u540D\u4E3A\u591A\u62C9\u8D21\u7684\u79CD\u65CF\u5360\u636E\u3002\u4ED6\u4EEC\u806A\u660E\u4E14\u957F\u5BFF\uFF0C\u4F46\u5374\u5E76\u4E0D\u597D\u6218\uFF0C\u4E00\u76F4\u88AB\u4EBA\u65CF\u6240\u5AC9\u5992\u3002\u53EA\u662F\u7E41\u6B96\u76F8\u5BF9\u56F0\u96BE\uFF0C\u6240\u4EE5\u53EA\u5360\u636E\u4E861/3\u7684\u5730\u76D8\u3002"
+  - "\u4E24\u5927\u79CD\u65CF\u4E00\u5411\u76F8\u5B89\u65E0\u4E8B,\u6BCF500\u661F\u5E74\u5C31\u4F1A\u8F6E\u6D41\u53BB\u5BF9\u65B9\u9886\u571F\u7EED\u7B7E\u4E00\u6B21\u53CB\u597D\u534F\u8BAE\uFF0C\u5C31\u4E24\u56FD\u548C\u5E73\u5171\u5904\u7684\u76F8\u5173\u89C4\u5B9A\u78E8\u78E8\u5634\u76AE\u5B50\u3002\u76F4\u5230A\u56FD\u4E00\u4F4D\u6B8B\u66B4\u65E0\u9053\u7684\u66B4\u541BS\u767B\u4E0A\u738B\u4F4D\uFF0C\u8FD9\u548C\u5E73\u7684\u8868\u8C61\u624D\u7EC8\u4E8E\u88AB\u6253\u7834\u3002\n\n"
+  - "\u4F60\u540D\u4E3AIceHorg\uFF0C\u662F\u591A\u62C9\u8D21\u65CF\u7684\u5C11\u65CF\u957F\u3002\u73B0\u5728\u662F1551\u661F\u5E74\uFF0C\u4F60\u6B63\u8981\u8DDF\u968F\u7236\u4EB2\u548C\u59B9\u59B9\u5E26\u7740\u62A4\u536B\u961F\u4E00\u8D77\u53BB\u7B7E\u7F72\u65B0\u7684\u53CB\u597D\u534F\u8BAE\u3002\u4ECA\u5E74\u8F6E\u5230\u591A\u62C9\u8D21\u65CF\u53BBA\u5E1D\u56FD\u7B7E\u7F72\u534F\u8BAE\u4E86\u3002\n\n"
+  - "\u521A\u8D70\u8FDB\u7B7E\u7F72\u534F\u8BAE\u7684\u5927\u5385\uFF0C\u4F60\u5C31\u611F\u89C9\u6C14\u6C1B\u4E0D\u5BF9\uFF0C\u9A7B\u5175\u6570\u91CF\u6781\u591A\uFF0C\u800C\u4E14\u90FD\u795E\u60C5\u8083\u7A46\u3002\u4F60\u6B63\u611F\u89C9\u4E8B\u60C5\u4E0D\u5BF9\u7684\u65F6\u5019\uFF0C\u58EB\u5175\u4EEC\u5DF2\u7ECF\u9F50\u5237\u5237\u7684\u4E3E\u67AA\u5BF9\u51C6\u4E86\u4F60\u4EEC\u3002\u968F\u884C\u7684\u62A4\u536B\u961F\u89C1\u72B6\u4E5F\u7ACB\u523B\u4E3E\u67AA\u5BF9\u51C6\u4E86A\u56FD\u58EB\u5175\uFF0C\u6C14\u6C1B\u5251\u62D4\u5F29\u5F20\u3002"
+  - "A\u56FD\u7684\u66B4\u541BS\u8D70\u4E86\u51FA\u6765\uFF1A\u4F60\u4EEC\u8FD9\u4E9B\u5F02\u7C7B\u8FD8\u662F\u592A\u5E74\u8F7B\u4E86\uFF0C\u968F\u968F\u4FBF\u4FBF\u5C31\u6562\u8FDB\u6211\u4EEC\u7684\u9886\u571F\uFF0C\u771F\u4E0D\u77E5\u9053\u6211\u4E4B\u524D\u90A3\u4E9B\u7EDF\u6CBB\u8005\u4E3A\u4EC0\u4E48\u4E0D\u6562\u5BF9\u4F60\u4EEC\u4E0B\u624B\u3002\u4ECA\u5929\u5728\u8FD9\u91CC\u706D\u6389\u4F60\u4EEC\uFF0C\u660E\u5929\u6211\u4EEC\u5C31\u80FD\u7EDF\u6CBB\u6574\u4E2A\u5B87\u5B99\u4E86\u3002"
+  - "S\u8F6C\u8EAB\u79BB\u53BB\uFF1A\u52A8\u624B\u5427\n"
+  - "\u5C31\u5728\u65CF\u957F\u4E0B\u4EE4\u62A4\u536B\u961F\u51C6\u5907\u5148\u4E0B\u624B\u4E3A\u5F3A\u7684\u65F6\u5019\uFF0C\u67AA\u58F0\u4E0E\u54C0\u568E\u5374\u4ECE\u540E\u65B9\u4F20\u6765\uFF0C\u770B\u7740\u4EBA\u65CF\u58EB\u5175\u8138\u4E0A\u8BA5\u8BBD\u7684\u7B11\u5BB9\uFF0C\u4F60\u7F13\u7F13\u8F6C\u8FC7\u8EAB\u53BB\uFF0C\u4E00\u534A\u8EAB\u7A7F\u62A4\u536B\u961F\u961F\u670D\u7684\u4EBA\u6B63\u7AEF\u7740\u67AA\u5BF9\u7740\u4F60\u3002\n"
+  - "\u5C31\u5728\u8FD9\u65F6\uFF0C\u8EBA\u5728\u5730\u4E0A\u7684\u62A4\u536B\u961F\u961F\u957F\u4E00\u8DC3\u800C\u8D77\uFF0C\u77AC\u79D2\u4E86\u62A4\u536B\u961F\u7684\u53DB\u5F92\uFF0C\u5E76\u5BF9\u5269\u4E0B\u7684\u4E3A\u6570\u4E0D\u591A\u7684\u62A4\u536B\u961F\u961F\u5458\u4E0B\u4EE4\u4FDD\u62A4\u65CF\u957F\u548C\u65CF\u957F\u513F\u5973\u5168\u529B\u64A4\u79BB\u3002\u8BF4\u7F62\uFF0C\u5C31\u5B64\u8EAB\u4E00\u4EBA\u51B2\u8FDB\u654C\u9635\u3002"
+  - "\u5728\u62A4\u536B\u961F\u961F\u5458\u7684\u727A\u7272\u4E0B\uFF0C\u4E00\u884C\u4EBA\u5DF2\u7ECF\u65E0\u9650\u63A5\u8FD1\u8FDB\u6765\u7684\u5927\u95E8\uFF0C\u773C\u770B\u5C31\u53EF\u4EE5\u8D70\u51FA\u53BB\u7684\u65F6\u5019\uFF0C\u53E6\u4E00\u961F\u58EB\u5175\u4ECE\u540E\u65B9\u5305\u4E86\u8FC7\u6765\u3002\u59B9\u59B9\u7D27\u7D27\u5730\u6293\u7740\u4F60\u7684\u8863\u89D2\uFF0C\u4F60\u773C\u4E2D\u4E5F\u9010\u6E10\u9732\u51FA\u7EDD\u671B\u3002\n"
+  - "\u6B64\u65F6\uFF0C\u8001\u65CF\u957F\u7528\u591A\u62C9\u8D21\u8BED\u5BF9\u4F60\u8BF4\uFF1A\u6211\u63A5\u4E0B\u6765\u8981\u7528\u6211\u4EEC\u8FD8\u5728\u5B9E\u9A8C\u4E2D\u7684\u4E00\u79CD\u65F6\u7A7A\u91CF\u5B50\u70B8\u5F39\u4E86\uFF0C\u8FD9\u8FD8\u662F\u8BD5\u9A8C\u54C1\uFF0C\u6240\u4EE5\u5A01\u529B\u6CA1\u90A3\u4E48\u5927\uFF0C\u4F46\u62D6\u65F6\u95F4\u8FD8\u662F\u591F\u4E86\u3002\u6210\u54C1\u5C31\u5FEB\u505A\u597D\u4E86\uFF0C\u5982\u679C\u6218\u4E89\u6253\u54CD\uFF0C\u8FD9\u662F\u6211\u4EEC\u53CD\u8D25\u4E3A\u80DC\u7684\u5173\u952E\u3002\u4F60\u8D76\u7D27\u51B2\u5411\u6211\u4EEC\u7684\u98DE\u673A\uFF0C\u5E26\u4E0A\u4F60\u59B9\u59B9\u8DD1\u56DE\u6BCD\u661F\u3002\u5FEB\u8D70\uFF01\n"
+  - "\u8001\u65CF\u957F\u8FB9\u8BF4\u8FB9\u6FC0\u6D3B\u4E86\u4F60\u817F\u4E0A\u7684\u52A8\u529B\u88C5\u7532\uFF0C\u5927\u529B\u63A8\u4E86\u4F60\u4E00\u628A\u3002\u4F5C\u4E3A\u591A\u62C9\u8D21\u65CF\u9876\u5C16\u7684\u98DE\u884C\u5458\u7684\u4F60\u6DF1\u77E5\u81EA\u5DF1\u6CA1\u6709\u9009\u62E9\u7684\u65F6\u95F4\uFF0C\u72B9\u8C6B\u5C31\u7B49\u4E8E\u6D6A\u8D39\u7236\u4EB2\u521B\u9020\u7684\u673A\u4F1A\u3002\n"
+  - "\u770B\u7740\u54ED\u7740\u8DD1\u5411\u7236\u4EB2\u7684\u59B9\u59B9\uFF0C\u4F60\u62E6\u8170\u62B1\u8D77\u4E86\u5979\u5E76\u51B2\u8FDB\u4E86\u98DE\u673A\uFF0C\u6025\u5FD9\u6FC0\u6D3B\u4E86\u98DE\u673A\u81EA\u5E26\u7684\u62A4\u76FE\u7CFB\u7EDF\u3002\u4F34\u968F\u7740\u8EAB\u540E\u5DE8\u5927\u7684\u7206\u70B8\u58F0\uFF0C\u98DE\u673A\u51B2\u5411\u4E86\u661F\u5B87\u3002\u773C\u89D2\u7684\u6CEA\u6EF4\uFF0C\u52A9\u71C3\u7740\u5FC3\u4E2D\u590D\u4EC7\u7684\u706B\u7130\u3002\n"
+  - "\u7136\u800C\u5371\u673A\u5E76\u6CA1\u6709\u79BB\u53BB\uFF0C\u8BB8\u8BB8\u591A\u591A\u7684\u5E1D\u56FD\u98DE\u673A\u4E5F\u4ECE\u5730\u9762\u98DE\u8D77\uFF0C\u8BD5\u56FE\u963B\u62E6\u4F60\u7684\u811A\u6B65\u3002\n"
+  storyText2:
+  - 'Long, long ago, the universe was ruled by two major races. One of them was human.
+    They built the empire called A, and governed two-thirds of the universe. The remaining
+    third belonged to a race called the Duoragong. Duoragong people were famous for
+    their intelligence and longevity. They were peaceful at heart. Humans were always
+    jealous of these characteristics.
+
+
+'
+  - "The two big races were always at peace. Every 500 star-years they would go to
+    each other\u2019s realm in turn to renew the friendship policy. The peace was
+    never broken, until a tyrant, S, started leading empire A."
+  - "Your name is Icehorg. You are the son of the leader of Duoragong. It\u2019s the
+    star-year 1551, and you are going with your father and your sister--under the
+    protection of your guardians--to empire A, to renew the friendship policy.\n"
+  - 'After walking into the hall where the meeting is held, you felt that something
+    was wrong. There were more empire soldiers than usual, and they all had serious
+    faces. When you tried to remind your father of the situation, the soldiers raised
+    their guns against your people. Seeing this situation, your guardians also raised
+    their guns against the empire soldiers. A war was about to start.
+
+'
+  - "The new tyrant, S, came into the hall: \u201CYou idiots are too young, too simple.
+    How dare you come to my empire with just these few guardians. I don\u2019t understand
+    why my previous emperors dared not to destroy you guys. But today I\u2019ll crush
+    you, and tomorrow the whole universe will be mine.\u201D\n"
+  - "S turned away and waved his hand: \u201CKill them all.\u201D\n"
+  - 'When your father tried to lead the guardians to take the initiative, a shot and
+    a wail came from behind you. The human soldiers were smiling ironically as you
+    slowly turned around, and saw that half of your guardians were pointing their
+    weapons at you.
+
+'
+  - 'Right away, the captain of guardians jumped up from the ground and killed the
+    betrayers. He asked the rest of guardians to protect your father, your sister,
+    and you, and to evacuate as soon as possible. Then, he faced the entire empire
+    army all by himself.
+
+'
+  - Under the protection of your guardians and their sacrifices, you managed to get
+    super close to the gate. When you were about to get out of the hall and escape,
+    another party of soldiers came from that direction. Your little sister grabbed
+    your clothes tightly, and you became hopeless and despairing.
+  - " At that moment, your father told you in Duoragonese: \u201CI\u2019m going to
+    use a bomb that is still under examination. This is a replica, so the power is
+    not that much, but it\u2019s enough to earn time for you to take your sister and
+    commandeer our aircraft to flee. The real bomb is stored in our underground laboratory.
+    If the war is to begin, you must think carefully about how to use it. Now, go
+    to our plane and take your sister back to our planet. Go!\u201D\n"
+  - "While saying these words, your father activated the running booster attached
+    to your legs and pushed you, hard. As one of the top pilots of the Duoragong,
+    you knew you didn\u2019t have much time to choose. Any hesitation would be wasting
+    the opportunity your father made. "
+  - 'You grabbed your sister, who was crying and trying to run to your father, and
+    rushed to the aircraft. After boarding the aircraft, you activated the shield
+    system to protect you and your sister from the explosion. With the giant explosion,
+    your plane flew into space. Tears fell from your eyes, but they turned out to
+    be the fuel of your resolution of revenge.
+
+'
+  - 'However, you were not safe. A lot of enemy planes took off and tried to shoot
+    you down  '

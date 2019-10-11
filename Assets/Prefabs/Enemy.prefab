@@ -122,6 +122,10 @@ MonoBehaviour:
   deathSoundVolume: 0.2
   shootSFX: {fileID: 8300000, guid: 7ad86a8f2e6289247bdf4e65139df96c, type: 3}
   shootSoundVolume: 0.1
+  enemySpawner: {fileID: 1976990393950310320, guid: 4e04c41e8bc274ecfba7bb5a0d4f81ae,
+    type: 3}
+  sceneLoader: {fileID: 7706526955034177808, guid: 393b44265dc8c45d7969e7e78c3c0783,
+    type: 3}
 --- !u!60 &2513152318341339678
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -198,3 +202,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 200
+  enemySpawner: {fileID: 1976990393950310320, guid: 4e04c41e8bc274ecfba7bb5a0d4f81ae,
+    type: 3}

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyPathing : MonoBehaviour
 {
@@ -32,12 +33,12 @@ public class EnemyPathing : MonoBehaviour
             var movementThisFrame = waveConfig.GetMoveSpeed() * Time.deltaTime;
             transform.position = Vector2.MoveTowards(transform.position, targetPosition, movementThisFrame);
 
-            if (transform.position == targetPosition) {
+            if (transform.position == targetPosition ) {
                 waypointIndex++;
             }
         }
         else {
-            Destroy(gameObject);
+
         }
     }
 }

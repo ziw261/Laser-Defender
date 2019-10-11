@@ -215,7 +215,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 38, y: 113}
+  m_AnchoredPosition: {x: 38, y: 78}
   m_SizeDelta: {x: 895.1, y: 117.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &81351318
@@ -238,7 +238,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Project Survive
+  m_text: END OF THE CIRCLE
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 57661ff15adc3974d86d4d99c0b38d66, type: 2}
   m_sharedMaterial: {fileID: 21439072536048148, guid: 57661ff15adc3974d86d4d99c0b38d66,
@@ -248,8 +248,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294952448
-  m_fontColor: {r: 0, g: 0.7769811, b: 1, a: 1}
+    rgba: 4281089279
+  m_fontColor: {r: 1, g: 0.23636122, b: 0.1745283, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -308,10 +308,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 81351318}
-    characterCount: 15
+    characterCount: 17
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 3
+    wordCount: 4
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -399,7 +399,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Laser Defender
+  m_text: sTAR fANTASY
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 169e69a038ce01744a4cc3c81d348b95, type: 2}
   m_sharedMaterial: {fileID: 21159219148119774, guid: 169e69a038ce01744a4cc3c81d348b95,
@@ -409,8 +409,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294952448
-  m_fontColor: {r: 0, g: 0.7769811, b: 1, a: 1}
+    rgba: 4278255594
+  m_fontColor: {r: 0.9212953, g: 1, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 526593580}
-    characterCount: 14
+    characterCount: 12
     spriteCount: 0
     spaceCount: 1
     wordCount: 2
@@ -1542,10 +1542,35 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6447059396159402162, guid: dfdf64622f33c39449fd2a4e083f305a,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447059396159402162, guid: dfdf64622f33c39449fd2a4e083f305a,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447059396159402162, guid: dfdf64622f33c39449fd2a4e083f305a,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6447059396159402163, guid: dfdf64622f33c39449fd2a4e083f305a,
         type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447059396159402163, guid: dfdf64622f33c39449fd2a4e083f305a,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447059396159402163, guid: dfdf64622f33c39449fd2a4e083f305a,
+        type: 3}
+      propertyPath: m_PixelPerfect
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dfdf64622f33c39449fd2a4e083f305a, type: 3}
